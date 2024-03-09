@@ -1,0 +1,187 @@
+/* Colors */
+
+:root {
+    --text: #1c1b1b;
+    --white: #fbfbfb;
+    --primary: #79addc;
+    --secondary: #ffc09f;
+    --third: #F06449;
+    --fourth: #B0F2B4;
+    --fifth: #F2BAC9;
+    --sixth: #87E8D8;
+  }
+  
+  /* Typography */
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  /* Buttons */
+  
+  .btn {
+    filter: drop-shadow(2px 2px 3px #000000);
+    border-radius: 10px;
+  }
+  .btn-primary {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+  }
+  
+  .btn-primary:hover {
+    color: #ffffff;
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0.25rem var(--secondary);
+    background-color: var(--secondary);
+    color: var(--white);
+    border-color: var(--secondary);
+  }
+  
+  .btn-primary:active {
+    background-color: var(--secondary);
+    color: var(--white);
+    border-color: var(--secondary);
+  }
+  .btn-secondary {
+    background-color: var(--third);
+    color: var(--white);
+    border-color: var(--third);
+  }
+  
+  .btn-secondary:hover {
+    color: #ffffff;
+    background-color: var(--fourth);
+    border-color: var(--fourth);
+  }
+  
+  .btn-secondary:focus {
+    box-shadow: 0 0 0.25rem var(--fourth);
+    background-color: var(--fourth);
+    color: var(--white);
+    border-color: var(--fourth);
+  }
+  
+  .btn-secondary:active {
+    background-color: var(--fourth);
+    color: var(--white);
+    border-color: var(--fourth);
+  }
+  .btn-success {
+    background-color: var(--fifth);
+    color: var(--white);
+    border-color: var(--fifth);
+  }
+  
+  .btn-success:hover {
+    color: #ffffff;
+    background-color: var(--sixth);
+    border-color: var(--sixth);
+  }
+  
+  .btn-success:focus {
+    box-shadow: 0 0 0.25rem var(--sixth);
+    background-color: var(--sixth);
+    color: var(--white);
+    border-color: var(--sixth);
+  }
+  
+  .btn-success:active {
+    background-color: var(--sixth);
+    color: var(--white);
+    border-color: var(--sixth);
+  }
+  .btn-danger {
+    background-color: var(--secondary);
+    color: var(--white);
+    border-color: var(--secondary);
+  }
+  
+  .btn-danger:hover {
+    color: #ffffff;
+    background-color: var(--third);
+    border-color: var(--third);
+  }
+  
+  .btn-danger:focus {
+    box-shadow: 0 0 0.25rem var(--third);
+    background-color: var(--third);
+    color: var(--white);
+    border-color: var(--third);
+  }
+  
+  .btn-danger:active {
+    background-color: var(--third);
+    color: var(--white);
+    border-color: var(--third);
+  }
+  .btn-warning {
+    background-color: var(--fourth);
+    color: var(--white);
+    border-color: var(--fourth);
+  }
+  
+  .btn-warning:hover {
+    color: #ffffff;
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  .btn-warning:focus {
+    box-shadow: 0 0 0.25rem var(--primary);
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+  }
+  
+  .btn-warning:active {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+  }
+  .btn-info {
+    background-color: var(--sixth);
+    color: var(--white);
+    border-color: var(--sixth);
+  }
+  
+  .btn-info:hover {
+    color: #ffffff;
+    background-color: var(--third);
+    border-color: var(--third);
+  }
+  
+  .btn-info:focus {
+    box-shadow: 0 0 0.25rem var(--third);
+    background-color: var(--third);
+    color: var(--white);
+    border-color: var(--third);
+  }
+  
+  .btn-info:active {
+    background-color: var(--third);
+    color: var(--white);
+    border-color: var(--third);
+  }
